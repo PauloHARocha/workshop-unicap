@@ -132,6 +132,17 @@ services:
       timeout: 10s
       retries: 5
     restart: always
+  
+  api:
+    build: ./docker/api
+    volumes: 
+        - ./api/:/usr/src/app
+        - ./data:/usr/src/app/data
+    ports: 
+        - 5000:5000
+    environment: 
+        PORT: 5000
+        FLASK_DEBUG: 1
 
 volumes:
   postgres-db-volume:
