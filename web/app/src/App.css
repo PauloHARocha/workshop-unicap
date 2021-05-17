@@ -1,38 +1,47 @@
-.App {
-  text-align: center;
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header li {
+  float: left;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+header li a {
+  display: block;
   color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-.App-link {
-  color: #61dafb;
+/* Change the link color to #111 (black) on hover */
+header li a:hover {
+  background-color: #111;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+main {
+  width: 100%;
 }
+
+.content {
+  width: 45%;
+  padding: 8px 16px;
+}
+.left {
+  
+  float: left;
+  /* padding: 16px 32px; */
+}
+.right {
+  
+  float: right;
+  
+}
+
+/* <div id="parentContainer" style="width: 100%;">
+  <div id="chartContainer1" style="float: left; width: 45%; height: 260px;"></div>
+  <div id="chartContainer2" style="float: right; width: 45%; height: 260px;"></div> */
