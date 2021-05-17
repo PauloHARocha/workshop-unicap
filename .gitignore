@@ -1,5 +1,7 @@
 # dependencies
 logs/
+__pycache__/
+*.pyc
 /node_modules
 /.pnp
 .pnp.js
