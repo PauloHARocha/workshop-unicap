@@ -1,7 +1,7 @@
 # Semana da Computação UNICAP
 
 
-## WMinicurso II: Da análise ao Dashboard: Automatizando Data Science usando Airflow
+## Minicurso II: Da análise ao Dashboard: Automatizando Data Science usando Airflow
 
 ## Descrição
 
